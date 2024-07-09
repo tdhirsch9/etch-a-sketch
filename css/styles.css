@@ -1,0 +1,33 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    gap: 1px;
+}
+
+.row{
+    display:flex;
+    flex: 1;
+}
+
+.grid-square{
+    flex: 1;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+}
+
+button{
+    display: flex;
+    margin-bottom: 10px;
+}
